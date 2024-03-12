@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .padre{
+            width: 500px;
+            height: 400px;
+            padding: 20px;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        .hijo{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 2px;
+            background-color: rgb(2, 8,49);
+            color: white;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo" id="1">hijo1</div>
+        <div class="hijo" id="2">hijo2</div>
+        <div class="hijo" id="3">hijo3</div>
+    </div>
+    <br><br>
+    <div class="padre">
+        <div class="hijo" id="4">hijo4</div>
+    </div>
+</body>
+</html>
