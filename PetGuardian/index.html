@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Guardian</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="lr-content flx-cv flx-ch ttl-hd col">
+        <h1>PET GUARDIAN</h1>
+        <h2>¡Tu mascota siempre a tu alcance!</h2>
+      </div>
+      <div class="lr-content flx-cv flx-ch img-hd">
+        <img src="images/huella1.png" lazy />
+      </div>
+    </header>
+
+    <!-- CUERPO -->
+    <section class="first-section">
+      <div class="lr-content flx-cv flx-ch img-st1">
+        <img src="images/Dogg.png" lazy />
+        <img src="images/Dogg2.png" lazy />
+      </div>
+
+      <div class="lr-content flx-cv flx-ch col ttl-sc txt-sc">
+        <h1>Sobre Nosotros</h1>
+        <p>
+          En PetGuardian, nos apasiona el bienestar de tus mascotas tanto como a
+          ti. Entendemos lo angustioso que puede ser cuando un miembro peludo de
+          la familia se pierde, y es por eso que hemos creado una solución
+          innovadora para ayudarte a localizar a tus compañeros de cuatro patas
+          en tiempo real.<br /><br />
+          Nuestro equipo está compuesto por amantes de los animales,
+          desarrolladores y expertos en tecnología que se han unido con un
+          propósito común: proporcionar tranquilidad y seguridad a los dueños de
+          mascotas. Con años de experiencia en el campo de la tecnología y el
+          desarrollo de aplicaciones, hemos creado una plataforma fácil de usar
+        </p>
+      </div>
+    </section>
+    
+    <section class="second-section">
+    </section>
+    <section class="third-section"></section>
+    <section class="fifth-section"></section>
+
+    <!-- PIE DE PAGINA -->
+    <footer></footer>
+    <script>
+      document.querySelector("body").addEventListener("wheel", scroller);
+      var scY = 0;
+      function scroller() {
+        scY <= 0 ? scY = 0 : scY += event.deltaY;
+        console.log(event.deltaY);
+      }
+    </script>
+  </body>
+</html>
